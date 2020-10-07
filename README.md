@@ -4,4 +4,4 @@ Seeds is a simple yet not-no-simple text-based farming adventure. You have 4 dif
 
 ## Run
 
-Download and extract. Open the folder titled 'seeds' and look for 'main.exe'. Double click to run.
+Download and extract. Open the folder titled 'main' and look for 'main.exe'. Double click to run.
