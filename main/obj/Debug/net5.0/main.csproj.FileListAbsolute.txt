@@ -1,0 +1,16 @@
+c:\Users\ethan\Downloads\SEEDS-main\main\obj\Debug\net5.0\main.csprojAssemblyReference.cache
+c:\Users\ethan\Downloads\SEEDS-main\main\obj\Debug\net5.0\main.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\ethan\Downloads\SEEDS-main\main\obj\Debug\net5.0\main.AssemblyInfoInputs.cache
+c:\Users\ethan\Downloads\SEEDS-main\main\obj\Debug\net5.0\main.AssemblyInfo.cs
+c:\Users\ethan\Downloads\SEEDS-main\main\obj\Debug\net5.0\main.csproj.CoreCompileInputs.cache
+c:\Users\ethan\Downloads\SEEDS-main\main\bin\Debug\net5.0\main.exe
+c:\Users\ethan\Downloads\SEEDS-main\main\bin\Debug\net5.0\main.deps.json
+c:\Users\ethan\Downloads\SEEDS-main\main\bin\Debug\net5.0\main.runtimeconfig.json
+c:\Users\ethan\Downloads\SEEDS-main\main\bin\Debug\net5.0\main.runtimeconfig.dev.json
+c:\Users\ethan\Downloads\SEEDS-main\main\bin\Debug\net5.0\main.dll
+c:\Users\ethan\Downloads\SEEDS-main\main\bin\Debug\net5.0\ref\main.dll
+c:\Users\ethan\Downloads\SEEDS-main\main\bin\Debug\net5.0\main.pdb
+c:\Users\ethan\Downloads\SEEDS-main\main\obj\Debug\net5.0\main.dll
+c:\Users\ethan\Downloads\SEEDS-main\main\obj\Debug\net5.0\ref\main.dll
+c:\Users\ethan\Downloads\SEEDS-main\main\obj\Debug\net5.0\main.pdb
+c:\Users\ethan\Downloads\SEEDS-main\main\obj\Debug\net5.0\main.genruntimeconfig.cache
