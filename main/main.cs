@@ -72,7 +72,7 @@ namespace Adventure
                     Console.ForegroundColor = ConsoleColor.Green;
                     Console.Write("EASY");
                     Console.ForegroundColor = ConsoleColor.Cyan;
-                    Console.WriteLine(".\nLets begin by  all of our plots! Type 'list'.");
+                    Console.WriteLine(".\nLets begin by viewing all of our plots! Type 'list'.");
                     Console.ResetColor();
                     tutorialLs();
                     break;
@@ -84,7 +84,7 @@ namespace Adventure
                     Console.ForegroundColor = ConsoleColor.Yellow;
                     Console.Write("NORMAL");
                     Console.ForegroundColor = ConsoleColor.Cyan;
-                    Console.WriteLine(".\nLets begin by  all of our plots! Type 'list'.");
+                    Console.WriteLine(".\nLets begin by viewing all of our plots! Type 'list'.");
                     Console.ResetColor();
                     tutorialLs();
                     break;
@@ -96,7 +96,7 @@ namespace Adventure
                     Console.ForegroundColor = ConsoleColor.DarkYellow;
                     Console.Write("HARD");
                     Console.ForegroundColor = ConsoleColor.Cyan;
-                    Console.WriteLine(".\nLets begin by  all of our plots! Type 'list'.");
+                    Console.WriteLine(".\nLets begin by viewing all of our plots! Type 'list'.");
                     Console.ResetColor();
                     tutorialLs();
                     break;
@@ -108,7 +108,7 @@ namespace Adventure
                     Console.ForegroundColor = ConsoleColor.Red;
                     Console.Write("NIGHTMARE");
                     Console.ForegroundColor = ConsoleColor.Cyan;
-                    Console.WriteLine(".\nLets begin by  all of our plots! Type 'list'.");
+                    Console.WriteLine(".\nLets begin by viewing all of our plots! Type 'list'.");
                     Console.ResetColor();
                     tutorialLs();
                     break;
@@ -302,6 +302,11 @@ namespace Adventure
                 case "water": waterCMD(); break;
                 case "harvest": harvestCMD(); break;
                 case "help": helpCMD(); break;
+                case "q;":
+                    Console.ForegroundColor = ConsoleColor.Red;
+                     Console.WriteLine(".\nExiting Game...");
+                     Console.ResetColor();
+                    break;
                 default: Console.ForegroundColor = ConsoleColor.Red; Console.WriteLine(".\n.\nImproper syntax used. Please try again."); Console.ResetColor(); gameplay(); break;
             }
         }
@@ -735,19 +740,19 @@ namespace Adventure
             {
                 int randoString = random.Next(0, 5);
                 string[] story = {
-        ".\nA light drizzle turns into a heavy thunderstorm. Check your plots to see if any have been damaged.",
-        ".\nA flash flood pours into the city and wipes out some of the crops. Check your plots to see if any have been damaged.",
-        ".\nLightning lights up the sky. Check your plots to see if any have been damaged.",
-        ".\nA large gust approaches. Check your plots to see if any have been damaged.",
-        ".\nA small tornado strikes part of town. Check your plots to see if any have been damaged.",
-        ".\nMr. Krabs runs up on your plots and he gets strafed by an A10-Warthog. Check your plots to see if any have been damaged.",
-        ".\n",
-        ".\nSomeone threw a gender reveal party next by your crops. Check your plots to see if any have been damaged.",
-        ".\nA flock of Naruto runners trample your crops. Check your plots to see if any have been damaged.",
-        ".\nA gas leak causes you too hallucinate and you accidentially watered your crops with vegetable oil. Check your plots to see if any have been damaged.",
-        ".\nKindergardeners take a tour of your farm they try to uproot your farm. Check your plots to see if any have been damaged.",
-        ".\nDonald Trump is reelected president for 2020 and he decides to build a wall. Unfortunately the wall is built over your plots. Check your plots to see if any have been damaged.",
-        };
+            ".\nA light drizzle turns into a heavy thunderstorm. Check your plots to see if any have been damaged.",
+            ".\nA flash flood pours into the city and wipes out some of the crops. Check your plots to see if any have been damaged.",
+            ".\nLightning lights up the sky. Check your plots to see if any have been damaged.",
+            ".\nA large gust approaches. Check your plots to see if any have been damaged.",
+            ".\nA small tornado strikes part of town. Check your plots to see if any have been damaged.",
+            ".\nMr. Krabs runs up on your plots and he gets strafed by an A10-Warthog. Check your plots to see if any have been damaged.",
+            ".\n",
+            ".\nSomeone threw a gender reveal party next by your crops. Check your plots to see if any have been damaged.",
+            ".\nA flock of Naruto runners trample your crops. Check your plots to see if any have been damaged.",
+            ".\nA gas leak causes you too hallucinate and you accidentially watered your crops with vegetable oil. Check your plots to see if any have been damaged.",
+            ".\nKindergardeners take a tour of your farm they try to uproot your farm. Check your plots to see if any have been damaged.",
+            ".\nDonald Trump is reelected president for 2020 and he decides to build a wall. Unfortunately the wall is built over your plots. Check your plots to see if any have been damaged.",
+            };
                 foreach (bool planted in plotsPlanted)
                 {
                     var plantedTF = random.Next(2) == 1;
@@ -798,6 +803,10 @@ namespace Adventure
             Console.WriteLine("harvest");
             Console.ForegroundColor = ConsoleColor.DarkYellow;
             Console.WriteLine("harvest any fully grown plant (plant level 4).");
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.WriteLine("q;");
+            Console.ForegroundColor = ConsoleColor.DarkYellow;
+            Console.WriteLine("quit game.");
             Console.ResetColor();
             gameplay();
         }

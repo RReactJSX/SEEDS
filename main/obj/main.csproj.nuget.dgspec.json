@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\ethan\\Downloads\\SEEDS-main\\main\\main.csproj": {}
+    "D:\\.dDocuments\\VSCode\\SEEDS\\main\\main.csproj": {}
   },
   "projects": {
-    "c:\\Users\\ethan\\Downloads\\SEEDS-main\\main\\main.csproj": {
+    "D:\\.dDocuments\\VSCode\\SEEDS\\main\\main.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\ethan\\Downloads\\SEEDS-main\\main\\main.csproj",
+        "projectUniqueName": "D:\\.dDocuments\\VSCode\\SEEDS\\main\\main.csproj",
         "projectName": "main",
-        "projectPath": "c:\\Users\\ethan\\Downloads\\SEEDS-main\\main\\main.csproj",
+        "projectPath": "D:\\.dDocuments\\VSCode\\SEEDS\\main\\main.csproj",
         "packagesPath": "C:\\Users\\ethan\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\ethan\\Downloads\\SEEDS-main\\main\\obj\\",
+        "outputPath": "D:\\.dDocuments\\VSCode\\SEEDS\\main\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ethan\\AppData\\Roaming\\NuGet\\NuGet.Config"

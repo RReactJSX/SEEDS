@@ -6,5 +6,9 @@ Seeds is a simple yet not-no-simple text-based farming adventure. You have 4 dif
 ## Run
 
 ```bash
-dotnet run
+dotnet run seeds.cs
+```
+#### OR
+```bash
+click the seeds.bat file
 ```
